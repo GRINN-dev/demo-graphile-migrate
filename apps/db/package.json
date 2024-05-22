@@ -1,0 +1,11 @@
+{
+  "name": "db",
+  "dependencies": {
+    "graphile-migrate": "2.0.0-rc.2",
+    "graphile-worker": "^0.16.6"
+  },
+  "scripts": {
+    "gm": "pnpm graphile-migrate",
+    "dev": "pnpm gm watch"
+  }
+}

@@ -1,0 +1,25 @@
+erDiagram
+    "publ.albums" {
+        uuid id PK
+        text name 
+        text slug 
+        uuid artist_id FK
+        date release_date 
+        timestamp_with_time_zone created_at 
+        timestamp_with_time_zone updated_at 
+    }
+
+    "publ.artists" {
+        uuid id PK
+        text firstname 
+        text lastname 
+        text artistname 
+        text slug 
+        text bio 
+        text picture_url 
+        text website_url 
+        timestamp_with_time_zone created_at 
+        timestamp_with_time_zone updated_at 
+    }
+
+    "publ.albums" }o--|| "publ.artists" : "artist_id"

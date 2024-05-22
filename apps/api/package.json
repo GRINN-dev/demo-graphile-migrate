@@ -1,0 +1,11 @@
+{
+  "name": "api",
+  "description": "API for the project",
+  "version": "1.0.0",
+  "dependencies": {
+    "postgraphile": "5.0.0-beta.26"
+  },
+  "scripts": {
+    "dev": "postgraphile"
+  }
+}
